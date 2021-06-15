@@ -1,0 +1,52 @@
+.section__aboutme {
+    // background-image: url("../../../assets/images/bg-section-post.png");
+    // background-repeat: no-repeat;
+    // background-size: auto;
+    // background-position: 50%;
+    min-height: 100vh;
+
+    .wrapper__aboutme {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 20px 30px;
+        @media (min-width:640px) {
+            grid-template-columns: auto auto;
+
+        }
+
+        .content-aboutme {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .title-content {
+                font-size: 50px;
+                color: #333d47;
+                font-weight: 900;
+                margin-top: 0;
+                margin-bottom: 30px;
+
+                span {
+                    color: #c03f94;
+                }
+            }
+
+            .desc-content {
+                // color: #333d47e7;
+                font-size: 20px;
+                display: block;
+                line-height: 1.4;
+                @media (min-width:1024px) {
+                    padding-right: 28px;
+                }
+            }
+
+        }
+
+        .image-aboutme {
+            img {
+                padding-top: 13px;
+            }
+        }
+    }
+}
