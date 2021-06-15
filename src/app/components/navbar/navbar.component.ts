@@ -17,9 +17,7 @@ export class NavbarComponent implements OnInit {
       let currentScrollPos = window.pageYOffset;
         if (prevScrollpos > currentScrollPos) {
           window.document.getElementById('navbar')?.classList.remove('is-scrolled');
-          // document.getElementById("navbar").classList.remove('is-scrolled');
         } else {
-        //  window.document.getElementById("navbar").classList.add('is-scrolled');
         window.document.getElementById('navbar')?.classList.add ('is-scrolled');
 
         }
