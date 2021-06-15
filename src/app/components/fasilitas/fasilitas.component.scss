@@ -26,7 +26,7 @@
                 margin-top: 0;
                 margin-bottom: 30px;
                 @media (min-width:640px) {
-                    max-width: 50px;
+                    font-size: 50px;
                 }
 
                 span {
@@ -52,10 +52,19 @@
                     
                 }
                 .desc-fasilitas {
-                    font-size: 18px;
+                    font-size: 15px;
                     line-height: 1.4;
                     display: block;
-                    padding-left: 70px;
+                    padding-left: 0px;
+                    padding-bottom: 7px;
+                    padding-top: 5px;
+                    @media (min-width:640px) {
+                        font-size: 50px;
+                        padding-left: 70px;
+                        font-size: 18px;
+                        padding-top: 0px;
+                    }
+                    
                 }
             }
 

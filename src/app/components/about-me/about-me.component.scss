@@ -40,12 +40,16 @@
 
             .desc-content {
                 // color: #333d47e7;
-                font-size: 20px;
+                font-size: 18px;
                 display: block;
                 line-height: 1.4;
                 @media (min-width:1024px) {
                     padding-right: 28px;
                 }
+                @media (min-width:640px) {
+                    font-size: 20px;
+                }
+
             }
 
         }
