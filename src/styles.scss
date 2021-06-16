@@ -30,14 +30,12 @@ fieldset, ol, ul {
     background-size: auto;
     background-position: 50%;
     animation-duration: 2.8s;
-    
     animation-name: changewidth;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    @media(min-width:1240px) {
+    @media(min-width:1440px) {
         background-size: cover;
 
-        
     }
 }
 

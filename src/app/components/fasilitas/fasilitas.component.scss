@@ -3,7 +3,14 @@
     // background-repeat: no-repeat;
     // background-size: auto;
     // background-position: 50%;
-    min-height: 100vh;
+    padding: 25px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media (min-width:640px) {
+        min-height: 100vh;
+        padding: 0px;
+    }
 
     .wrapper__fasilitas {
         display: grid;
