@@ -50,6 +50,13 @@
 .nav {
     display: flex;
 
+    &__item {
+        
+        &.is-active {
+            color: #c03f94;
+        }
+    }
+
     &__link {
         padding: 0.5rem 0.75rem;
         list-style: none;
