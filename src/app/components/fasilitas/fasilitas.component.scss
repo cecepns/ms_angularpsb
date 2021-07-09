@@ -18,12 +18,17 @@
     .wrapper__fasilitas {
         display: grid;
         grid-template-columns: auto;
-        grid-gap: 20px 120px;
+        grid-gap: 0px 30px;
         @media (min-width:640px) {
-            grid-template-columns: 40% auto;
+            grid-template-columns: 45% auto;
 
         }
 
+        .image-fasilitas {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
         .content-fasilitas {
             display: flex;

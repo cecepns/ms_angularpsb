@@ -1,7 +1,7 @@
 .section__jalurseleksi {
-    padding: 80px 0;
-    min-height: 100vh;
+    // padding: 80px 0;
     background-image: url('../../../assets/images/ikhwan2.png');
+    // background-image: url('https://psb.marifatussalaam.org/assets/frontend/image/header2.png');
     background-position: center;
     background-repeat: no-repeat;
     background-position-y: bottom;
@@ -10,17 +10,22 @@
         background-size: 20%;
     }
     background-attachment: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
     .wrapper__jalurseleksi {
+        padding: 80px 0;
         width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
+        height: 100%;
+        position: relative;
+        background-color: rgba($color: #f7991e, $alpha: .2);
        
         &--card {
+            
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+       
+        .card-seleksi {
             margin: 20px 0;
             @media(min-width:640px) {
                 margin: unset;
