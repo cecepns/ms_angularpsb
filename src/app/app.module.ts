@@ -7,6 +7,8 @@ import { XyzComponent } from './xyz/xyz.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FasilitasComponent } from './components/fasilitas/fasilitas.component';
 import { AboutMeComponent } from './components/about-me/about-me.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { SelectionPathComponent } from './components/selection-path/selection-path.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { AboutMeComponent } from './components/about-me/about-me.component';
     XyzComponent,
     NavbarComponent,
     FasilitasComponent,
-    AboutMeComponent
+    AboutMeComponent,
+    FooterComponent,
+    SelectionPathComponent
   ],
   imports: [
     BrowserModule,

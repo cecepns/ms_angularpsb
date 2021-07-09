@@ -1,8 +1,11 @@
 .section__aboutme {
-    // background-image: url("../../../assets/images/bg-section-post.png");
+    // background-image: url("../../../assets/images/footerwaves.svg");
     // background-repeat: no-repeat;
+    // background-size: 100% 100%;
     // background-size: auto;
     // background-position: 50%;
+    // background-position: bottom;
+
     padding: 25px 0px;
     display: flex;
     justify-content: center;
@@ -17,7 +20,7 @@
         grid-template-columns: auto;
         grid-gap: 20px 30px;
         @media (min-width:640px) {
-            grid-template-columns: auto auto;
+            grid-template-columns: 50% 50%;
 
         }
 
@@ -61,6 +64,7 @@
             img {
                 display: none;
                 padding-top: 13px;
+                margin: auto;
                 @media (min-width:640px) {
                     display: block;
                 }
