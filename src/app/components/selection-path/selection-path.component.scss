@@ -1,30 +1,21 @@
 .section__jalurseleksi {
-    // padding: 80px 0;
-    background-image: url('../../../assets/images/ikhwan2.png');
-    // background-image: url('https://psb.marifatussalaam.org/assets/frontend/image/header2.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-position-y: bottom;
-    background-size: contain;
-    @media(min-width:640px) {
-        background-size: 20%;
-    }
-    background-attachment: fixed;
+    background-image: url("../../../assets/images/bg-pattern1.png");
+    background-size: cover;
+    background-color: #fafafa;
 
     .wrapper__jalurseleksi {
         padding: 80px 0;
-        width: 100%;
-        height: 100%;
-        position: relative;
-        background-color: rgba($color: #f7991e, $alpha: .2);
-       
+     
+
         &--card {
-            
+
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
+        // background-color: rgba($color: #fafafa, $alpha: 1);
+
         }
-       
+
         .card-seleksi {
             margin: 20px 0;
             @media(min-width:640px) {
@@ -32,19 +23,37 @@
             }
             width: 300px;
             height: 350px;
-            border-radius: 7px;
-            background: white;
+            border-radius: 6px;
+            background: #fbfbfb;
             position: relative;
-            --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-            box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-
-            a {
+            border: 1px solid #e8e8e8;
+            .icon {
                 position: absolute;
                 top: -18px;
-                right: 73px;
+                background-color: #c03f94;
+                right: 70px;
+                height: 54px;
+                color: #fff;
+                padding: 0 15px;
+                border-radius: 80px;
+                vertical-align: middle;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                svg {
+                    padding-right: 7px;
+                }
 
             }
-       
+            
+            
+        }
+
+        .card-seleksi:nth-child(2) {
+            .icon {
+                background-color: #f7991e;
+            }
         }
         // position: relative;
         // width: 100%;

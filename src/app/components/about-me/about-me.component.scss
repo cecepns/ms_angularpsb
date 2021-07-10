@@ -1,8 +1,9 @@
 .section__aboutme {
-    // background-image: url("../../../assets/images/footerwaves.svg");
+    @media (min-width:640px) {
+        background-image: url("../../../assets/images/bg-pattern1.png");
+        background-size: cover;
+    }
     // background-repeat: no-repeat;
-    // background-size: 100% 100%;
-    // background-size: auto;
     // background-position: 50%;
     // background-position: bottom;
 
@@ -34,11 +35,10 @@
                 color: #333d47;
                 font-weight: 900;
                 margin-top: 0;
-                margin-bottom: 30px;
+                margin-bottom: 10px;
                 @media (min-width:640px) {
                     font-size: 50px;
                 }
-
                 span {
                     color: #c03f94;
                 }
@@ -62,11 +62,12 @@
 
         .image-aboutme {
             img {
-                display: none;
-                padding-top: 13px;
+                // display: none;
+                padding: 15px 0;
                 margin: auto;
                 @media (min-width:640px) {
-                    display: block;
+                    // display: block;
+                    padding: unset;
                 }
             }
         }
