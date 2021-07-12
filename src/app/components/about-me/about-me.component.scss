@@ -7,13 +7,13 @@
     // background-position: 50%;
     // background-position: bottom;
 
-    padding: 25px 0px;
+    padding: 25px 0;
     display: flex;
     justify-content: center;
     align-items: center;
     @media (min-width:640px) {
         min-height: 100vh;
-        padding: 0px;
+        padding: 0;
     }
 
     .wrapper__aboutme {
@@ -35,7 +35,7 @@
                 color: #333d47;
                 font-weight: 900;
                 margin-top: 0;
-                margin-bottom: 10px;
+                margin-bottom: 15px;
                 @media (min-width:640px) {
                     font-size: 50px;
                 }
@@ -61,6 +61,7 @@
         }
 
         .image-aboutme {
+            position: relative;
             img {
                 // display: none;
                 padding: 15px 0;
@@ -70,6 +71,42 @@
                     padding: unset;
                 }
             }
+
+            .wrapper__item {
+                .box__item {
+                    display: flex;
+                    background-color: #fff;
+                    --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), -4px 7px 5px 5px rgba(0, 0, 0, .01);
+                    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+                    padding: 10px 20px;
+                    position: absolute;
+                    border-top-left-radius: 15px ;
+                    border-bottom-right-radius: 15px ;
+
+                    .desc {
+                        padding-left: 10px;
+                        display: flex;
+                        margin: 0;
+                        font-weight: 800;
+                        font-size: 16px;
+                        align-items: center;
+                    }
+                }
+
+                .box__item:nth-child(1) {
+                    top: 90px;
+                    left: 80px;
+                }
+                .box__item:nth-child(2) {
+                    top: 165px;
+                    left: 50px;
+                }
+                .box__item:nth-child(3) {
+                    top: 240px;
+                    left: 20px;
+                }
+            }
+
         }
     }
 }
