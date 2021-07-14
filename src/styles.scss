@@ -9,12 +9,18 @@
 $bg-body : #f9f9f9;
 $text-body : #333d47e7;
 
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 body {
     font-family: roboto;
     background-color: $bg-body;
     color: $text-body;
     margin: 0;
 }
+
+
 
 a {
     color: inherit;
