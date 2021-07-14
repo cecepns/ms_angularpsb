@@ -1,0 +1,82 @@
+.floating__message{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    .icon-cs {
+        width: 30px;
+        @media(min-width:640px){
+            width: 55px;
+        }
+    }
+
+    
+        .box-message {
+            display: flex;
+            align-items: center;
+            height: 140px;
+            width: 300px;
+            border-radius: 8px;
+            padding: 10px 20px;
+            background-color: #fff;
+            position: fixed;
+            right: 10px;
+            bottom: 10px;
+            display: flex;
+           transition: all 0.3s ease-in-out;
+           opacity: 0;
+        //    display: none;
+        transform: translateX(100%);
+
+           @media(min-width:640px){
+            bottom: 20px;
+           }
+        //    display: none;
+
+           &.active {
+            transform: translateX(0);
+           opacity: 1;
+
+           }
+
+
+            .box-cta {
+                padding-left: 20px;
+                .title{
+                    margin: 0;
+
+                }
+                .desc {
+                    padding:10px 0;
+                    margin: 0;
+                }
+                .btn--primary {
+                    margin: 0;
+                    border-radius: 7px;
+                }
+            }
+
+            .close-icon {
+                position: absolute;
+                top: 15px;
+                right: 15px;
+                width: 15px;
+                cursor: pointer;
+                z-index: 9999;
+            }
+        }
+    
+
+    .floating-button {
+        padding: 14px 16px;
+        @media(min-width:640px){
+            padding: 18px 20px;
+        }
+        border-radius: 100%;
+        background-color: #fff;
+        box-shadow: 4px 7px 14px rgb(0 0 0 / 13%);
+        cursor: pointer;
+
+       
+    }
+}

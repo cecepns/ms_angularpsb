@@ -1,10 +1,70 @@
 .footer {
-    height: 70px;
     width: 100%;
     background-color: #fff;
-    color: #000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   
+   
     
-}
+    .wrapper__footer{
+        .wrapper__detailfooter{
+            padding: 20px 0;
+            display: grid;
+            grid-template-columns: 100%;
+            @media(min-width:640px){
+                grid-template-columns: 33.333% 33.333% 33.333%;
+            }
+            grid-gap: 20px;
+            justify-content: center;
+            .wrapper__item {
+                padding: 0 15px;
+                font-size: 18px;
+
+                .title {
+                    font-size: 20px;
+                }
+                .site-link {
+                    display: flex;
+                    ul{
+                        li {
+                            padding-bottom: 15px;
+                            padding-right: 10px ;
+                            transition-property: all;
+                            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+                            transition-duration: .15s;
+                            &:hover {
+                                color: #c03f94;
+                                text-decoration: underline;
+                                fill: #c03f94;
+                            }
+                            a {
+                                display: flex;
+                                align-items: center;
+
+                                svg{
+                                    padding-right: 8px;
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+
+        .wrapper__copyright {
+            display: flex;
+            justify-content: center;
+            padding-top: 30px;
+            padding-bottom: 15px;
+            h3 {
+                margin: 0;
+                padding: 0;
+                font-weight: 800;
+                @media(max-width:640px) {
+                    font-size: 15px;
+                }
+            }
+            
+        }
+    }
+    
+}   

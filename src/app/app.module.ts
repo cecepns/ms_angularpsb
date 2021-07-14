@@ -8,6 +8,7 @@ import { FasilitasComponent } from './components/fasilitas/fasilitas.component';
 import { AboutMeComponent } from './components/about-me/about-me.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { SelectionPathComponent } from './components/selection-path/selection-path.component';
+import { FloatingMessageComponent } from './components/floating-message/floating-message.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SelectionPathComponent } from './components/selection-path/selection-pa
     FasilitasComponent,
     AboutMeComponent,
     FooterComponent,
-    SelectionPathComponent
+    SelectionPathComponent,
+    FloatingMessageComponent
   ],
   imports: [
     BrowserModule,
