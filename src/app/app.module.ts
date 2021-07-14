@@ -9,6 +9,7 @@ import { AboutMeComponent } from './components/about-me/about-me.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { SelectionPathComponent } from './components/selection-path/selection-path.component';
 import { FloatingMessageComponent } from './components/floating-message/floating-message.component';
+import { ExcellenceComponent } from './components/excellence/excellence.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FloatingMessageComponent } from './components/floating-message/floating
     AboutMeComponent,
     FooterComponent,
     SelectionPathComponent,
-    FloatingMessageComponent
+    FloatingMessageComponent,
+    ExcellenceComponent
   ],
   imports: [
     BrowserModule,
