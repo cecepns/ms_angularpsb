@@ -5,49 +5,53 @@
             <span>memilih kami</span>
         </h1>
         <div class="wrapper__content">
-            <div class="box__content">
-                <img src="https://orvyn.segeralive.com/img/branding.png" alt="keunggulan">
-                <h2 class="title">Kurikulum Khas</h2>
-                <p class="desc">Ma'rifatussalaam memiliki kurikulum khas yang dirancang dan di persiapkan oleh tenaga kependidikan yang bermutu jenjang pendidikan menengah, sehingga dapat berkontribusi dalam mempersiapkan generasi yang tangguh di masa depan.</p>
-            </div>
-            <div class="box__content">
-                <img src="https://orvyn.segeralive.com/img/branding.png" alt="keunggulan">
-                <h2 class="title">Lokasi Strategis</h2>
-                <p class="desc">Terletak di jalan manyeti
-                    Subang-Kalijati dan dekat dengan pintu tol Subang menjadikan Ma'rifatussalaam Qur'anic Boarding School sangat mudah dijangkau.
+            <swiper 
+            [config]="swiperConfig">
+
+            <ng-template swiperSlide>
+                <div class="box__content">
+                    <img src="https://orvyn.segeralive.com/img/branding.png" alt="keunggulan">
+                    <h2 class="title">Kurikulum Khas</h2>
+                    <p class="desc">Ma'rifatussalaam memiliki kurikulum khas yang dirancang dan di persiapkan oleh tenaga kependidikan yang bermutu jenjang pendidikan menengah, sehingga dapat berkontribusi dalam mempersiapkan generasi yang tangguh di masa depan.</p>
+                </div>
+            </ng-template>
+
+            <ng-template swiperSlide>
+                <div class="box__content">
+                    <img src="https://orvyn.segeralive.com/img/branding.png" alt="keunggulan">
+                    <h2 class="title">Lokasi Strategis</h2>
+                    <p class="desc">Terletak di jalan manyeti
+                        Subang-Kalijati dan dekat dengan pintu tol Subang menjadikan Ma'rifatussalaam Qur'anic Boarding School sangat mudah dijangkau.
+                        </p>
+                </div>
+            </ng-template>
+
+
+            <ng-template swiperSlide>
+                <div class="box__content">
+                    <img src="https://orvyn.segeralive.com/img/branding.png" alt="keunggulan">
+                    <h2 class="title">Fasilitas Memadai</h2>
+                    <p class="desc">Infrastruktur dan fasilitas yang memadai dengan investasi pendidikan yang terjangkau, pemisahan asrama dan kelas terpisah antara ikhwan dan akhwat.
                     </p>
-            </div>
-            <div class="box__content">
-                <img src="https://orvyn.segeralive.com/img/branding.png" alt="keunggulan">
-                <h2 class="title">Fasilitas Memadai</h2>
-                <p class="desc">Infrastruktur dan fasilitas yang memadai dengan investasi pendidikan yang terjangkau, pemisahan asrama dan kelas terpisah antara ikhwan dan akhwat.
-                </p>
-            </div>
-            <div class="box__content">
-                <img src="https://orvyn.segeralive.com/img/branding.png" alt="keunggulan">
-                <h2 class="title">SDM Profesional</h2>
-                <p class="desc">Memiliki SDM pendidik dan tenaga kependidikan yang terseleksi dengan rata-rata berusia muda.</p>
-            </div>
-            <div class="box__content">
-                <img src="https://orvyn.segeralive.com/img/branding.png" alt="keunggulan">
-                <h2 class="title">Standar Internasional</h2>
-                <p class="desc">Memiliki SDM pendidik dan tenaga kependidikan yang terseleksi dengan rata-rata berusia muda.</p>
-            </div>
-            <div class="box__content">
-                <img src="https://orvyn.segeralive.com/img/branding.png" alt="keunggulan">
-                <h2 class="title">Standar Internasional</h2>
-                <p class="desc">Memiliki SDM pendidik dan tenaga kependidikan yang terseleksi dengan rata-rata berusia muda.</p>
-            </div>
-            <div class="box__content">
-                <img src="https://orvyn.segeralive.com/img/branding.png" alt="keunggulan">
-                <h2 class="title">Standar Internasional</h2>
-                <p class="desc">Memiliki SDM pendidik dan tenaga kependidikan yang terseleksi dengan rata-rata berusia muda.</p>
-            </div>
-            <div class="box__content">
-                <img src="https://orvyn.segeralive.com/img/branding.png" alt="keunggulan">
-                <h2 class="title">Standar Internasional</h2>
-                <p class="desc">Memiliki SDM pendidik dan tenaga kependidikan yang terseleksi dengan rata-rata berusia muda.</p>
-            </div>
+                </div>
+            </ng-template>
+
+
+            <ng-template swiperSlide>
+                <div class="box__content">
+                    <img src="https://orvyn.segeralive.com/img/branding.png" alt="keunggulan">
+                    <h2 class="title">SDM Profesional</h2>
+                    <p class="desc">Memiliki SDM pendidik dan tenaga kependidikan yang terseleksi dengan rata-rata berusia muda.</p>
+                </div>
+            </ng-template>
+
+            
+
+        </swiper>
+            
+            
+            
+         
         </div>
     </div>
 </section>

@@ -22,17 +22,17 @@
     }
 
     .wrapper__content{
-        display: grid;
-        grid-template-columns: auto;
-        grid-gap: 20px;
+        // display: grid;
+        // grid-template-columns: auto;
+        // grid-gap: 20px;
         
-        @media (min-width:640px) {
-            grid-template-columns: auto auto;
-        }
-        @media (min-width:964px) {
-            grid-template-columns: auto auto auto auto;
-            grid-gap: 40px;
-        }
+        // @media (min-width:640px) {
+        //     grid-template-columns: auto auto;
+        // }
+        // @media (min-width:964px) {
+        //     grid-template-columns: auto auto auto auto;
+        //     grid-gap: 40px;
+        // }
         .box__content {
             min-height: 350px;
             border-radius: 10px;

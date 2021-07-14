@@ -11,6 +11,9 @@ import { SelectionPathComponent } from './components/selection-path/selection-pa
 import { FloatingMessageComponent } from './components/floating-message/floating-message.component';
 import { ExcellenceComponent } from './components/excellence/excellence.component';
 
+// LIBRARY
+import { SwiperModule } from 'swiper/angular';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,11 +23,13 @@ import { ExcellenceComponent } from './components/excellence/excellence.componen
     FooterComponent,
     SelectionPathComponent,
     FloatingMessageComponent,
-    ExcellenceComponent
+    ExcellenceComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SwiperModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
