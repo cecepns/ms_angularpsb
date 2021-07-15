@@ -95,10 +95,36 @@ fieldset, ol, ul {
     height: 45px;
     color: white;
     font-weight: 600; 
-    margin-left: 10px;  
 
     &:hover {
     // background-color: #9b1534;
+    background-color: #911e6a;
+    }
+}
+
+.btn--secondary {
+    cursor: pointer;
+    border-color: transparent;
+    border-radius: 9999px;
+    border-width: 1px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: .15s;
+    // background-color: #cf234b;
+    background-color: transparent;
+    // outline: #c03f94;
+    border: 1px solid #c03f94;
+    width: 155px;
+    height: 45px;
+    color: #000;
+    font-weight: 600; 
+
+    &:hover {
+    // background-color: #9b1534;
+    color: #fff;
     background-color: #911e6a;
     }
 }

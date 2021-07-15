@@ -58,10 +58,23 @@
 
             }
 
+            .wrapper__button {
+                padding-top: 20px;
+                width: 100%;
+                display:flex;
+                align-items: center;
+
+        
+            }
+
         }
 
         .image-aboutme {
             position: relative;
+            padding-top: 20px;
+            @media(min-width:640px){
+                padding-top: unset;
+            }
             img {
                 // display: none;
                 padding: 15px 0;
