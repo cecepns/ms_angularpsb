@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 import SwiperCore, {
+  Autoplay,
   Navigation,
   Pagination,
   Scrollbar,
@@ -8,7 +9,7 @@ import SwiperCore, {
 } from 'swiper/core';
 
 // install Swiper modules
-SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
+SwiperCore.use([Autoplay,Navigation, Pagination, Scrollbar, A11y]);
 
 @Component({
   selector: 'app-partner',
@@ -26,6 +27,9 @@ export class PartnerComponent implements OnInit {
   swiperConfigPartner: any = {
     slidesPerView: 'auto',
     spaceBetween: 8,
+    autoplay: {
+      delay:3000
+    },
     breakpoints: {
         992: {
             spaceBetween: 10,

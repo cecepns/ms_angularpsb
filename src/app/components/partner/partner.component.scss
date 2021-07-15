@@ -9,6 +9,9 @@
 
     .swiper-container {
         overflow: visible;
+        @media(min-width:640px){
+            overflow: hidden;
+        }
     }
     .wrapper__partner {
         // display: flex;
