@@ -3,17 +3,17 @@
     background-image: url('../../../assets/images/bg-circle1.png');
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
+    background-position: inherit;
+    @media(min-width:640px){
+        background-position:inherit;
+        padding: 100px 0;
+    }
 
     .app-container {
-        overflow: hidden;
 
         .swiper-container {
             overflow: visible;
-            @media(min-width:640px) {
-                overflow: hidden;
-            }
-
-           
         }
     }
 
@@ -26,7 +26,7 @@
         color: #333d47;
         font-weight: 900;
         margin-top: 0;
-        margin-bottom: 15px;
+        margin-bottom: 25px;
         @media (min-width:640px) {
             font-size: 50px;
             margin-bottom: 50px;

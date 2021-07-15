@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+
 import SwiperCore, {
   Navigation,
   Pagination,
@@ -10,34 +11,27 @@ import SwiperCore, {
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
 @Component({
-  selector: 'app-excellence',
-  templateUrl: './excellence.component.html',
-  styleUrls: ['./excellence.component.scss']
+  selector: 'app-partner',
+  templateUrl: './partner.component.html',
+  styleUrls: ['./partner.component.scss']
 })
-export class ExcellenceComponent implements OnInit {
+export class PartnerComponent implements OnInit {
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  swiperConfig: any = {
+  
+  swiperConfigPartner: any = {
     slidesPerView: 'auto',
     spaceBetween: 8,
     breakpoints: {
         992: {
-            spaceBetween: 20,
+            spaceBetween: 10,
             slidesPerView: '3',
         }
     }
 }
-
-
-  onSwiper() {
-    console.log('onswiper');
-  }
-  onSlideChange() {
-    console.log('slide change');
-  }
 
 }

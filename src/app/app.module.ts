@@ -13,6 +13,7 @@ import { ExcellenceComponent } from './components/excellence/excellence.componen
 
 // LIBRARY
 import { SwiperModule } from 'swiper/angular';
+import { PartnerComponent } from './components/partner/partner.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { SwiperModule } from 'swiper/angular';
     SelectionPathComponent,
     FloatingMessageComponent,
     ExcellenceComponent,
+    PartnerComponent,
   ],
   imports: [
     BrowserModule,

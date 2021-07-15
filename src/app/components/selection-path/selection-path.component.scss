@@ -1,7 +1,6 @@
 .section__jalurseleksi {
     background-image: url("../../../assets/images/bg-pattern1.png");
     background-size: cover;
-    background-color: #fafafa;
 
     
     padding: unset;
@@ -47,10 +46,10 @@
             @media(min-width:640px) {
                 margin: unset;
             }
-            width: 300px;
+            width: 350px;
             height: 350px;
-            border-radius: 6px;
-            background: #fbfbfb;
+            border-radius: 10px;
+            background: #fff;
             position: relative;
             border: 1px solid #e8e8e8;
             &:hover {
