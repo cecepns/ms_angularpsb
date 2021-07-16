@@ -1,135 +1,15 @@
 // LIBRARY
 @import '~swiper/swiper-bundle';
 
+// Font
+@import './assets/scss/typograohy/typography.scss';
+
+// Base
+@import './assets/scss/base/base.scss';
+
+// Button 
+@import './assets/scss/components/button'
 
 
 
 
-// BASE
-$bg-body : #f9f9f9;
-$text-body : #333d47e7;
-
-*, *::before, *::after {
-    box-sizing: border-box;
-}
-
-body {
-    font-family: roboto;
-    background-color: $bg-body;
-    color: $text-body;
-    margin: 0;
-}
-
-
-
-a {
-    color: inherit;
-    text-decoration: inherit;
-}
-
-ol, ul {
-    list-style: none;
-}
-
-fieldset, ol, ul {
-    margin: 0;
-    padding: 0;
-}
-
-.home-page {
-    padding-top: 90px;
-    // background-image: url("./assets/images/bg-section-post.png");
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: 50%;
-    animation-duration: 2.8s;
-    // animation-name: changewidth;
-    // animation-iteration-count: infinite;
-    animation-direction: alternate;
-    @media(min-width:1440px) {
-        background-size: cover;
-
-    }
-}
-
-@keyframes changewidth {
-    from {
-      background-position: 0%;
-    }
-  
-    to {
-        background-position: 50%;
-    }
-  }
-  
- 
-
-.app-container {
-    max-width: calc(1140px + 4rem);
-    margin: 0 auto;
-    padding: 1rem;
-    @media(min-width:1024px) {
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
-    @media(max-width:640px) {
-        padding: 0 1.5rem;
-    }
-}
-
-
-.btn--primary {
-    cursor: pointer;
-    border-color: transparent;
-    border-radius: 9999px;
-    border-width: 1px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    transition-property: all;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: .15s;
-    // background-color: #cf234b;
-    background-color: #c03f94;
-    width: 155px;
-    height: 45px;
-    color: white;
-    font-weight: 600; 
-
-    &:hover {
-    // background-color: #9b1534;
-    background-color: #911e6a;
-    }
-}
-
-.btn--secondary {
-    cursor: pointer;
-    border-color: transparent;
-    border-radius: 9999px;
-    border-width: 1px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    transition-property: all;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: .15s;
-    // background-color: #cf234b;
-    background-color: transparent;
-    // outline: #c03f94;
-    border: 1px solid #c03f94;
-    width: 155px;
-    height: 45px;
-    color: #000;
-    font-weight: 600; 
-
-    &:hover {
-    // background-color: #9b1534;
-    color: #fff;
-    background-color: #911e6a;
-    }
-}
-
-.img-fluid {
-    max-width:100%;
-    height: auto;
-}
