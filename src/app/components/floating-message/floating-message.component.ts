@@ -11,12 +11,12 @@ export class FloatingMessageComponent implements OnInit {
 
   ngOnInit(): void {
 
-    let ScreenWidth = window.screen.width;
-    let boxMessageCs = window.document.getElementById('box-message-cs');
+    // let ScreenWidth = window.screen.width;
+    // let boxMessageCs = window.document.getElementById('box-message-cs');
 
-    if(ScreenWidth < 540) {
-      boxMessageCs?.classList.add('active') 
-    }
+    // if(ScreenWidth < 540) {
+    //   boxMessageCs?.classList.add('active') 
+    // }
     
 
   }
