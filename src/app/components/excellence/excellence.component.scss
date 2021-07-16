@@ -5,8 +5,8 @@
     background-size: cover;
     overflow: hidden;
     background-position: inherit;
-    @media(min-width:640px){
-        background-position:inherit;
+    @media(min-width:640px) {
+        background-position: inherit;
         padding: 100px 0;
     }
 
@@ -16,10 +16,6 @@
             overflow: visible;
         }
     }
-
-    
-
-  
 
     &--title {
         font-size: 27px;
@@ -70,8 +66,8 @@
                 font-weight: 700;
             }
             .desc {
-                line-height: 22px;
-                font-size: 16px;
+                line-height: 24px;
+                font-size: 19px;
                 letter-spacing: 0.4px;
             }
         }
