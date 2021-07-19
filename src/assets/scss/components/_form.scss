@@ -2,7 +2,7 @@
 
 .form--psb {
     border: 1px solid #e5e7eb;
-     outline: none; 
+    /* outline: none; */
     font-size: 13px;
     border-radius: .375rem;
     display: block;
@@ -14,20 +14,20 @@
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    border-width: 3px;
+    border-width: 1px;
 
     &:focus {
-        border-color: #c03f94 ;
+        outline: #c03f94 auto 3px;
       
     }
     
     &:focus-visible {
-        border-color: #c03f94 ;
-        
+        outline: #c03f94 auto 3px;
     }
 
     &.active {
         border:1px solid red;
+        outline: red auto 1px;
     }
 }
 
