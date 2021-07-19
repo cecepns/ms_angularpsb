@@ -19,6 +19,10 @@
         border-color: #c03f94 ;
         outline: #c03f94 auto 1px;
     }
+
+    &.active {
+        border:1px solid red;
+    }
 }
 
 .form--label {
