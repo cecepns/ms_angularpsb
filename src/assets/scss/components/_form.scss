@@ -11,6 +11,10 @@
     font-size: 13px;
     letter-spacing: .8px;
     background: #fff;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-width: 1px;
 
     &:focus {
         border-color: #c03f94 ;
