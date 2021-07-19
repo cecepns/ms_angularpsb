@@ -17,12 +17,15 @@
     border-width: 1px;
 
     &:focus {
-        outline: #c03f94 auto 3px;
+        border-color: #c03f94 ;
+        border-width: 3px;
       
     }
     
     &:focus-visible {
-        outline: #c03f94 auto 3px;
+        border-color: #c03f94 ;
+        border-width: 3px;
+
     }
 
     &.active {
