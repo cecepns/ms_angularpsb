@@ -10,9 +10,11 @@
     width: 100%;
     font-size: 13px;
     letter-spacing: .8px;
+    background: #fff;
 
     &:focus {
         border-color: #c03f94 ;
+        outline: #c03f94 auto 1px;
     }
     
     &:focus-visible {
@@ -22,6 +24,7 @@
 
     &.active {
         border:1px solid red;
+        outline: red auto 1px;
     }
 }
 

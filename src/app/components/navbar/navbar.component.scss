@@ -3,10 +3,10 @@
     position: relative;
     z-index: 99999;
     padding: 18px 0;
-    @media (min-width: 641px) {
+    // @media (min-width: 641px) {
         --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
         box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-    }
+    // }
 
 
     .brand__logo {
