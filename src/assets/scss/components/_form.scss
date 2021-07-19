@@ -1,0 +1,33 @@
+
+
+.form--psb {
+    border: 1px solid #e5e7eb;
+    /* outline: none; */
+    font-size: 13px;
+    border-radius: .375rem;
+    display: block;
+    padding: 15px;
+    width: 100%;
+    font-size: 13px;
+    letter-spacing: .8px;
+
+    &:focus {
+        border-color: #c03f94 ;
+    }
+    
+    &:focus-visible {
+        border-color: #c03f94 ;
+        outline: #c03f94 auto 1px;
+    }
+}
+
+.form--label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
