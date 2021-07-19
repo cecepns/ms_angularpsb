@@ -19,11 +19,13 @@
     &:focus {
         border-color: #c03f94 ;
         outline: #c03f94 auto 1px;
+        border-width: 1px;
     }
     
     &:focus-visible {
         border-color: #c03f94 ;
         outline: #c03f94 auto 1px;
+    border-width: 1px;
     }
 
     &.active {
