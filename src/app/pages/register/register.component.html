@@ -23,24 +23,17 @@
                                 <input class="form--psb" type="password" placeholder="Masukan Password">
                             </div>
                             <div class="form-group">
-                                <label class="form--label">Jalur Seleksi</label>
-                                <select class="form--psb">
-                                    <option selected>Jalur Seleksi</option>
-                                    <option value="reguler">Reguler</option>
-                                    <option value="prestasi">Prestasi</option>
-                                    <option value="inden" >Inden</option>
-                                  </select>
+                                <label class="form--label">Ulangi Password</label>
+                                <input class="form--psb" type="password" placeholder="Masukan Kembali Password">
                             </div>
+                            
                         </div>
                         <div class="wrapper__input--right">
                             <div class="form-group">
                                 <label class="form--label">Nomor Telepon</label>
                                 <input class="form--psb" type="text" placeholder="Masukan Nomor Telepon">
                             </div>
-                            <div class="form-group">
-                                <label class="form--label">Ulangi Password</label>
-                                <input class="form--psb" type="password" placeholder="Masukan Kembali Password">
-                            </div>
+                            
                             <div class="form-group">
                                 <label class="form--label">Jenis Kelamin</label>
                                 <select class="form--psb">
@@ -50,7 +43,17 @@
                             </div>
                             
                             <div class="form-group">
-                                <label class="form--label">Informasi Ma'rifatusssalaam</label>
+                                <label class="form--label">Jalur Seleksi</label>
+                                <select class="form--psb">
+                                    <option selected>Jalur Seleksi</option>
+                                    <option value="reguler">Reguler</option>
+                                    <option value="prestasi">Prestasi</option>
+                                    <option value="inden" >Inden</option>
+                                  </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form--label">Informasi Ma'rifatusssalaam?</label>
                                 <select id="jalur-seleksi" class="form--psb">
                                     <option selected>Facebook</option>
                                     <option value="assyifa">Assyifa</option>
@@ -64,7 +67,7 @@
                    
                    
                     <div class="wrapper__btn">
-                        <span>Sudah memiliki akun? <a href="#" class="link"> Login</a></span>
+                        <span>Sudah memiliki akun? <a routerLink="/login" routerLinkActive="active" class="link"> Login</a></span>
                         <a href="#" class="btn--primary"> Daftar Sekarang </a>
                     </div>
                 </div>

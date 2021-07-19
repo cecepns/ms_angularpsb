@@ -1,0 +1,95 @@
+.section__login {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url('../../../assets/images/bg-circle2.png');
+    background-size: cover;
+ 
+
+    .wrapper__login {
+      
+        display: grid;
+        grid-template-columns: auto;
+        grid-column-gap: 20px;
+
+        @media(min-width:640px){
+        grid-template-columns: 50% 50%;
+        }
+        .image__login {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box__login {
+            .wrapper__input {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 100%;
+            }
+            .title{
+                font-size: 27px;
+                color: #333d47;
+                font-weight: 900;
+                margin-top: 0;
+                margin-bottom: 35px;
+                @media (min-width:640px) {
+                    font-size: 40px;
+                }
+                span {
+                    color: #c03f94;
+                }
+            }
+            border-radius: 10px;
+            padding: 25px;
+            display: flex;
+            flex-direction: column;
+            border-radius: 10px;
+            border: 1px solid #e8e8e8;
+            background-color: #fff;
+            min-height: 450px;
+
+            margin-bottom: 30px;
+            @media(min-width:640px) {
+                margin-bottom: unset;
+            }
+
+            .wrapper__btn {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column-reverse;
+                align-items: center;
+                margin-top: 25px;
+                @media(min-width:640px){
+                    justify-content: space-between; 
+                    flex-direction: unset;
+                }
+                .btn--primary {
+                    border-radius: 5px;
+                }
+
+                a:nth-child(1) {
+                    color: #c03f94;
+                    font-weight: 700;
+                    transition: .3s ease-in-out;
+                    padding-top: 20px;
+                    
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+
+                }
+                a:nth-child(2) {
+                    margin-bottom: 20px;
+                    @media(min-width:640px){
+                        margin-bottom: unset;
+                    }
+                }
+            }
+
+            
+        }
+    }
+}
