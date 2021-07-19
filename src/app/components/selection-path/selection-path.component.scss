@@ -18,6 +18,9 @@
         @media (min-width:640px) {
             font-size: 50px;
         }
+        span {
+            color: #c03f94;
+        }
     }
 
     .wrapper__jalurseleksi {
@@ -53,7 +56,7 @@
             position: relative;
             border: 1px solid #e8e8e8;
             &:hover {
-                transform: translateY(-30px);
+                transform: translateY(-25px);
             }
 
             .icon {
@@ -63,6 +66,7 @@
                 top: -1px;
                 background-color: #f7991e;
                 height: 44px;
+                width: 100%;
                 color: #fff;
                 padding: 0 9px;
                 vertical-align: middle;
