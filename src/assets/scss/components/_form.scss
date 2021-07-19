@@ -14,11 +14,11 @@
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    border-width: 1px;
 
     &:focus {
         border-color: #c03f94 ;
-        border-width: 3px;
+        // border-width: 3px;
+        outline: 3px auto #c03f94;
       
     }
     
