@@ -2,7 +2,7 @@
 
 .form--psb {
     border: 1px solid #e5e7eb;
-    /* outline: none; */
+     outline: none; 
     font-size: 13px;
     border-radius: .375rem;
     display: block;
@@ -24,8 +24,7 @@
     
     &:focus-visible {
         border-color: #c03f94 ;
-        border-width: 3px;
-
+        
     }
 
     &.active {
